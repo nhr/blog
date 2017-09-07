@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "The Shipyards"
 theme = "purehugo"
 Paginate = 10
-disqusShortname = "blog-emichron" # optional
+DisqusShortname = "blog-emichron" # optional
+Copyright = "Copyright (c) 2000-2017 N. Harrison Ripps."
 
 [params]
   twitterName = "nhripps"
