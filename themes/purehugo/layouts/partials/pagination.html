@@ -1,0 +1,16 @@
+{{ if or (.Prev) (.Next) }}
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+      {{ if .Prev }}
+      <a href="{{.Prev.Permalink}}" class="post-list-pagination-item pure-button post-list-pagination-item-prev">
+        <i class="fa fa-angle-double-left"></i>&nbsp;Newer
+      </a>
+      {{ end }}
+      {{ if .Next }}
+      <a href="{{.Next.Permalink}}" class="post-list-pagination-item pure-button post-list-pagination-item-next">
+        Older&nbsp;<i class="fa fa-angle-double-right"></i>
+      </a>
+    {{ end }}
+  </nav>
+</div>
+{{ end }}

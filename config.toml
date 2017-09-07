@@ -1,0 +1,16 @@
+baseurl = "http://blog.emichron.com/"
+languageCode = "en-us"
+title = "The Shipyards"
+theme = "purehugo"
+Paginate = 10
+disqusShortname = "blog-emichron" # optional
+
+[params]
+  twitterName = "nhripps"
+  githubName = "nhr"
+  description = "N. Harrison Ripps' weblog. Mostly tech with occasional forays into life beyond the screen." # optional
+  google_analytics = "UA-46174241-1"
+  hideShareOptions = true
+
+[permalinks]
+  post = "/:year/:month/:day/:title/" # optional
